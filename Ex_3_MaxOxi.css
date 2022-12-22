@@ -1,0 +1,164 @@
+body { position: relative;
+    text-align: center;
+    color: black;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+
+
+.logo {
+height: 40px;
+background-color: #0c1231;
+text-align: left;
+}
+.logo img {display: flex;
+max-height: 40px;
+text-align: left;
+padding-left: 20px;
+}
+#background-logo {
+background-color: rgb(27, 30, 46);
+}
+#background-bars {
+background-color: rgb(34, 40, 67);
+}
+
+.nav-bar {
+top: 0;
+z-index: 2;
+}
+
+ul {
+position: absolute;
+width: 100%;
+list-style-type: none;
+margin:0 ;
+padding: 0;
+overflow: hidden;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 8px 8px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color:#0F1111;
+}
+
+.under-nav-bar {
+background-color:#f26806; 
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+.page {
+width: 90%;  
+margin-left: auto;
+margin-right: auto; 
+padding-top: 30px;
+}
+
+.under-nav-bar {
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.under-nav-bar a {
+color: white;
+text-decoration: none;  
+}
+
+.holiday-space  {
+height: 120px;
+width: 100%;
+}
+.holiday-space img {
+width: 100%;
+margin-bottom: 0;
+}
+.centered {
+color: white;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -270%);
+}
+
+#text-ident {
+padding-left: 10px;
+text-decoration: none;
+text-align: left;
+color: rgb(0, 167, 189);
+}
+
+
+.flex-container  {display: flex;
+background-color: white;
+padding-top:5px;
+padding-bottom: 5px;
+padding-left: auto;
+padding-right: auto;
+margin-bottom: 20px;
+}
+
+.flex-container div {
+padding:10px;
+padding-top: 40px;
+}
+#textflexcontainer{margin:0;
+position: absolute;
+font-size: 15px;
+height: 20px;
+width: 300px;
+padding: 5px;
+text-align: left;
+}
+
+#img_flexbox {display:flex;
+opacity: 1;
+width: 100%;
+height: 370px;
+object-fit: cover;
+border-radius: 15px;
+-webkit-box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+}
+
+.imgcentr img  {display: flex;
+text-align: center;
+max-width: 100%;
+object-fit: cover;
+}
+
+.back-to-top {
+height: 40px;
+padding-top: 15px;
+height: 30px;
+}
+.back-to-top a{
+color: white;
+}
+
+.logo-botton {
+height: 80px;
+} 
+.logo-botton img{
+height: 60px;
+padding-top: 10px;
+}
+.footer{
+width: 100%;
+align-content: center;
+}
